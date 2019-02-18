@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="calculatorStyle.css">
+	</head>
+	<body>
+		<div>
+		<h1> Enter two numbers of your choice</h1>
+		<h2> And then choose which calculation to perform... </h2>
+		</div>
+
+		<script src="calculator.js"></script>
+		<main>
+			<section id="calculator">
+				<div class="calculator" id="calculator">
+
+						<div class="input">number_1: <input type="text" size="33" id="num1" onfocus="this.value=''"/></div>
+						</br>
+						<div class="input">number_2 : <input type="text" size="33" id="num2" onfocus="this.value=''"/></div>
+						<p>
+							</p>
+							<p>
+							</p>
+						<div class="keys">
+							<span>
+
+								<input type="button" class="key" id="+" value="+" onclick="action(this)" onmouseover="this.style.color = '#00333'"/>
+								<input type="button" class="key" id="-" value="-" onclick="action(this)" onmouseover="this.style.color = '#00333'"/>
+								<input type="button" class="key" id="*" value="*" onclick="action(this)" onmouseover="this.style.color = '#00333'"/>
+								<input type="button" class="key" id="/" value="/" onclick="action(this)" onmouseover="this.style.color = '#00333'"/>
+								<input type="button" class="key" id="%" value="%" onclick="action(this)" onmouseover="this.style.color = '#00333'"/>
+								<input type="button" class="key" id="C" value="C" onclick="action(this)" onmouseover="this.style.color = '#00333'"/>
+								<input type="button" class="key" id="Exit" value="Exit" onclick="action(this)" onmouseover="this.style.color = '#00333'"/>
+							</span>
+						</div>
+						<div class="display">
+							<h3 id="display"></h3>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
